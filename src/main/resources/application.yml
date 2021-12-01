@@ -1,0 +1,18 @@
+dbconfig:
+  # modbus configuration
+  driverName: "modbus"
+  transportProtocol: "tcp"
+  transportIP: "127.0.0.1"
+  transportPort: "502"
+
+  # IoTDB configuration
+  iotdbIP: "111.202.73.135"
+  rpcPort: "14667"
+  iotdbUsername: "root"
+  iotdbPassword: "root"
+
+  # listen timeseries variables list
+  timeseries:
+    - "root.modbus"
+    - "root.test2"
+
